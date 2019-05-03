@@ -1,0 +1,5 @@
+#Paup Script
+
+set nowarnreset autoclose maxtrees = 200000;
+execute /Users/ethanbartel/Desktop/Bootstrap/OutFolder/UCE_gene_Trees.nex;
+savetrees file= /Users/ethanbartel/Desktop/Bootstrap/OutFolder/Paup_UCE_gene_Trees.nex;

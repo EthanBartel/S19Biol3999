@@ -1,0 +1,38 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+        'Kentropyx_calcarata'
+        'Typhlops_brongersmianus'
+        'Bothrops_moojeni'
+        'Tantilla_melanocephala'
+        'Gymnodactylus_amarali'
+        'Hemidactylus_mabouia'
+        'Brasiliscincus_heathi'
+        'Outgroup_outgroup'
+        'Notomabuya_frenata'
+        'Copeoglossum_nigropunctatum'
+        'Micrablepharus_maximiliani'
+        'Colobosaura_modesta'
+        'Anolis_meridionalis'
+        'Anolis_brasiliensis'
+        'Amphisbaena_alba'
+        'Tropidurus_oreadicus'
+        'Ameivula_mumbuca'
+  ;
+END;
+
+BEGIN TREES;
+    TREE 1 = ('Kentropyx_calcarata':2.7991e-06,((('Typhlops_brongersmianus':0.0148810517,('Bothrops_moojeni':2.2079e-06,'Tantilla_melanocephala':0.0079999009):0.0219146784):0.0157629649,'Gymnodactylus_amarali':0.0032536986):0.0135557076,'Hemidactylus_mabouia':2.7991e-06,'Brasiliscincus_heathi':2.7991e-06,'Outgroup_outgroup':0.0472184056,'Notomabuya_frenata':2.7991e-06,'Copeoglossum_nigropunctatum':2.7991e-06):0.0080283592,'Micrablepharus_maximiliani':0.0123284992,'Colobosaura_modesta':2.5449e-06,('Anolis_meridionalis':2.7991e-06,'Anolis_brasiliensis':2.7991e-06):0.0212937578,(('Amphisbaena_alba':0.0170756567,'Tropidurus_oreadicus':0.0037437804):0.0105090771,'Ameivula_mumbuca':2.1737e-06):0.0148692318);
+    TREE 2 = ('Kentropyx_calcarata':2.7991e-06,(('Typhlops_brongersmianus':0.0550524895,('Gymnodactylus_amarali':0.010242217,('Bothrops_moojeni':0.0195318351,'Tantilla_melanocephala':0.0155711957):0.0232132204):0.0024708574):0.0118610471,('Anolis_meridionalis':2.7991e-06,'Amphisbaena_alba':0.0240881145,'Tropidurus_oreadicus':0.0120413025,'Anolis_brasiliensis':2.7991e-06,'Outgroup_outgroup':0.046367694):0.0153208867,'Brasiliscincus_heathi':0.0039135227,'Hemidactylus_mabouia':2.7991e-06,'Notomabuya_frenata':2.7991e-06,'Copeoglossum_nigropunctatum':2.7991e-06):0.0037779993,'Ameivula_mumbuca':2.7991e-06,'Colobosaura_modesta':2.7991e-06,'Micrablepharus_maximiliani':0.0114654341);
+    TREE 3 = ('Kentropyx_calcarata':2.8811e-06,((('Typhlops_brongersmianus':0.0231776634,'Outgroup_outgroup':0.0526131521):0.0225273537,'Brasiliscincus_heathi':2.7991e-06,('Gymnodactylus_amarali':2.1995e-06,'Hemidactylus_mabouia':2.7991e-06,('Bothrops_moojeni':2.0421e-06,'Tantilla_melanocephala':0.0116996071):0.0195025308):0.0037377426,'Copeoglossum_nigropunctatum':2.7991e-06,'Notomabuya_frenata':2.7991e-06):0.0116574503,('Anolis_meridionalis':2.7991e-06,('Amphisbaena_alba':0.0280044028,'Tropidurus_oreadicus':0.0158986333):0.0197821404,'Anolis_brasiliensis':2.7991e-06):0.0076783867):0.0079577563,'Ameivula_mumbuca':0.00779313,('Colobosaura_modesta':2.5312e-06,'Micrablepharus_maximiliani':0.003863422):0.0038636423);
+    TREE 4 = ('Kentropyx_calcarata':1e-06,(((('Typhlops_brongersmianus':0.0373879412,('Bothrops_moojeni':2.2397e-06,'Tantilla_melanocephala':0.0075091883):0.0106567795):0.0164196078,'Hemidactylus_mabouia':2.7991e-06,'Gymnodactylus_amarali':2.0619e-06):0.0275391003,'Outgroup_outgroup':0.0331780335,'Copeoglossum_nigropunctatum':2.7991e-06,'Brasiliscincus_heathi':0.0078373753,'Notomabuya_frenata':1e-06):0.0077781318,(('Anolis_meridionalis':1e-06,'Tropidurus_oreadicus':0.011815848,'Anolis_brasiliensis':1e-06):0.0040320644,'Amphisbaena_alba':0.023843051):0.0036389665):0.003900924,'Colobosaura_modesta':1e-06,'Micrablepharus_maximiliani':0.0077487188,'Ameivula_mumbuca':1e-06);
+    TREE 5 = ('Kentropyx_calcarata':2.0362e-06,(('Typhlops_brongersmianus':0.0416694185,'Outgroup_outgroup':0.0408393068):0.0122600348,('Bothrops_moojeni':0.0038469632,'Tantilla_melanocephala':0.0125666333):0.0256314639,'Gymnodactylus_amarali':2.7991e-06,'Anolis_brasiliensis':1e-06,'Anolis_meridionalis':2.7991e-06,'Notomabuya_frenata':1e-06,'Copeoglossum_nigropunctatum':1e-06,'Hemidactylus_mabouia':2.7305e-06,'Brasiliscincus_heathi':0.0081978778):0.0063207559,(('Amphisbaena_alba':0.0165126795,'Tropidurus_oreadicus':0.0133605001):0.0061672422,'Ameivula_mumbuca':2.0495e-06):0.0067183039,('Colobosaura_modesta':2.5099e-06,'Micrablepharus_maximiliani':0.0081367928):0.0040243459);
+    TREE 6 = ('Kentropyx_calcarata':2.7991e-06,(('Typhlops_brongersmianus':0.0739124425,'Outgroup_outgroup':0.0388110506):0.0346442527,('Gymnodactylus_amarali':2.0177e-06,('Bothrops_moojeni':0.0059347963,'Tantilla_melanocephala':0.0211410773):0.0333744557):0.0037405694,'Brasiliscincus_heathi':2.7991e-06,'Copeoglossum_nigropunctatum':2.7991e-06,'Notomabuya_frenata':2.7991e-06,'Hemidactylus_mabouia':2.7991e-06):0.0112120633,'Ameivula_mumbuca':2.7991e-06,('Colobosaura_modesta':2.9095e-06,'Micrablepharus_maximiliani':0.008520999):0.004199435,('Anolis_meridionalis':2.7991e-06,('Amphisbaena_alba':0.0247551759,'Tropidurus_oreadicus':0.0084348623):0.0243062637,'Anolis_brasiliensis':2.7991e-06):0.0037024297);
+    TREE 7 = ('Kentropyx_calcarata':2.0598e-06,(((('Typhlops_brongersmianus':0.0363744091,('Bothrops_moojeni':0.0037505975,'Tantilla_melanocephala':0.0037882009):0.0159250507):0.0164259815,'Gymnodactylus_amarali':2.0058e-06):0.0037364894,'Outgroup_outgroup':0.0408937515,'Brasiliscincus_heathi':2.7991e-06,'Hemidactylus_mabouia':2.7991e-06,'Copeoglossum_nigropunctatum':2.7991e-06,'Notomabuya_frenata':2.7991e-06):0.0036978476,('Anolis_meridionalis':2.3913e-06,'Anolis_brasiliensis':2.7991e-06):0.0077485778):0.0036314397,(('Amphisbaena_alba':0.0155233315,'Tropidurus_oreadicus':0.0125004296):0.0031618613,'Ameivula_mumbuca':2.0934e-06):0.0037126358,('Colobosaura_modesta':2.4173e-06,'Micrablepharus_maximiliani':0.0111358523):0.0073570477);
+    TREE 8 = ('Kentropyx_calcarata':2.7991e-06,((('Typhlops_brongersmianus':0.0404692259,('Bothrops_moojeni':0.0092906997,'Tantilla_melanocephala':0.0101159064):0.0341590249):0.0039261294,'Brasiliscincus_heathi':0.0124713292,'Gymnodactylus_amarali':0.0037434324,'Hemidactylus_mabouia':2.7991e-06,'Copeoglossum_nigropunctatum':2.7991e-06,'Notomabuya_frenata':2.7991e-06):0.0075294994,(('Anolis_meridionalis':2.7371e-06,'Anolis_brasiliensis':2.7991e-06):0.0076864929,'Outgroup_outgroup':0.0444457805,('Amphisbaena_alba':0.0110300369,'Tropidurus_oreadicus':2.7991e-06):0.0073918596):0.0075430722):0.0036361711,'Colobosaura_modesta':2.7991e-06,'Ameivula_mumbuca':0.0073449695,'Micrablepharus_maximiliani':2.7991e-06);
+    TREE 9 = ('Kentropyx_calcarata':2.6494e-06,('Typhlops_brongersmianus':0.0524281092,('Gymnodactylus_amarali':2.2132e-06,'Hemidactylus_mabouia':2.1862e-06,('Bothrops_moojeni':0.0037543376,'Tantilla_melanocephala':0.0037103185):0.0189446441):0.0036972785,(('Anolis_meridionalis':1e-06,'Anolis_brasiliensis':1e-06):0.0037999773,('Amphisbaena_alba':0.0389066391,'Tropidurus_oreadicus':0.0118651583):0.0035656982,'Outgroup_outgroup':0.0318630014):0.0073962255,'Copeoglossum_nigropunctatum':1e-06,'Notomabuya_frenata':1e-06,'Brasiliscincus_heathi':2.7991e-06):0.0036846921,'Ameivula_mumbuca':0.0037130513,('Colobosaura_modesta':2.6448e-06,'Micrablepharus_maximiliani':0.0074286717):0.003688936);
+    TREE 10 = ('Kentropyx_calcarata':2.6084e-06,(('Typhlops_brongersmianus':0.0411851574,'Outgroup_outgroup':0.0282307489):0.0085770027,('Bothrops_moojeni':0.0075841848,'Tantilla_melanocephala':0.0035939575):0.0153063341,'Gymnodactylus_amarali':2.7991e-06,'Notomabuya_frenata':2.7991e-06,'Copeoglossum_nigropunctatum':2.7991e-06,'Brasiliscincus_heathi':0.0038650878):0.0149491034,('Colobosaura_modesta':2.0171e-06,'Micrablepharus_maximiliani':0.0116376522):0.0037882425,'Anolis_meridionalis':2.7991e-06,'Hemidactylus_mabouia':2.7991e-06,'Anolis_brasiliensis':2.7991e-06,('Amphisbaena_alba':0.0076795428,'Ameivula_mumbuca':2.0697e-06,'Tropidurus_oreadicus':0.0164585284):0.011588693);
+END;
+
